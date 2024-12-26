@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picscart</title>
+</head>
+<style>
+    body{
+        background: url("images/Vector\ cartoon\ art\ vxv\ Dua\ lipa\ by\ fasa.jpg");
+    }
+    .main{
+        display: flex;
+    }
+    .main a{
+        display: flex;
+        font-size: 18px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 300;
+        background-color: orange;
+        display: inline-flex;
+        padding: 1vh 3vh;
+        white-space: nowrap;
+        text-decoration: none;
+    }
+    h1{
+        font-size: 35px;
+        align-items: top;
+        border: 1px solid black;
+        margin-top: 0vh;
+        padding: 3vh 2vh;
+        color: white;
+        font-weight: 500;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 800;
+        border-radius: 25px;
+        
+    }
+    .main a:hover{
+        background-color: white;
+        color: black;
+     
+       border: 1px solid orange;
+        font-weight: 500;
+    }
+  
+.main h1:hover{
+    animation: a 2s ease-out;
+}
+@keyframes a {
+    0%{
+        background-color: white;
+    }
+
+    100%{
+        background-color: black;
+        color: white;
+    }
+   
+}
+.sub{
+        margin-left: 4vh;
+    }
+button{
+    padding: 1vh 6vh;
+    color: white;
+    background-color: rgb(42, 205, 42);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    border-radius: 10px;
+    border: none;
+    margin: 2vh;
+    padding: 1vh 5vh;
+}
+button:hover{
+    background-color: blue;
+    text-decoration: underline;
+}
+.content{
+position: absolute;
+ left: 50vh;
+ top: 50vh;
+}
+input:hover{
+    background-color: white;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: 200;
+    border: none;
+    
+}
+input{
+  border-radius: 20px;
+ border: none;
+ background: transparent;
+ border: 2px solid black;
+ font-size: 50px;
+ 
+}
+label{
+    font-size: 35px;
+    font-weight: 200;
+    color: black;
+    font-weight: 200;
+    
+}
+.text:hover{
+    color: white;
+    font-weight: 200;
+    font-family: 'Times New Roman', Times, serif;
+    border: 4px solid blue;
+    border-style: double;
+    background-color: black;
+}
+</style>
+<body>
+    <div class="main">
+        <h1>Picscart</h1>
+       <div class="sub">
+        <a href="#">About us</a>
+        <a href="#">Services</a>
+        <a href="#">Downloads</a>
+        <a href="#">Help</a>
+        <a href="#">Register</a>
+        <a href="https://in.pinterest.com/?utm_source=homescreen_icon">Login</a>
+       </div>
+    </div>
+    <div class="content">
+       <label for="input">Search: </label>
+        <input class="text" style="font-size: 40px; padding-left:2vh;" placeholder="search" maxlength="10"><br>
+        <button>Go</button><br>
+      
+    </div>
+</body>
+</html>

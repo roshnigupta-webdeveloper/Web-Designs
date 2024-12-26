@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+display: flex;
+justify-content: space-between;
+background-color: aqua;
+}
+.hold{
+    height: 40px;
+    width: 46px;
+    margin: 10px;
+    border: 2px solid grey;
+    padding: 4px 2px;
+}
+#d1{
+    border: 1px solid black;
+    height: 8px;
+    width: 40px;
+    margin: 2px;
+    background-color: black;
+}
+#d2{
+    border: 1px solid black;
+    height: 8px;
+    width: 40px;
+    margin: 2px;
+    background-color: black;
+}
+#d3{
+    border: 1px solid black;
+    height: 8px;
+    width: 40px;
+    margin: 2px;
+    background-color: black;
+}
+.right{
+    margin: 15px 10px;
+    display: inline-block;
+    font-size: 27px;
+}
+.fav{
+background-color: grey;
+color: white;
+padding: 2px 37px;
+text-decoration: none;
+
+}
+.sub{
+    background-color: grey;
+color: white;
+padding: 2px 20px;
+text-decoration: none;
+
+}
+.bell{
+    border-radius: 50%;
+    border: 1px solid red;
+    padding: 20px 40px;
+    color: white;
+    padding: 2px 20px;
+    text-decoration: none;
+}
+.disk{
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 50vh;
+    margin: 10px 10px;
+    margin-left: 70vh;
+    border-style: double;
+    background-color: lightcoral;
+}
+.disk2{
+     height: 360px; 
+    width: 435px; 
+    
+    margin-left: 30px;
+    margin-bottom: 40vh;
+    background-color: lightblue;
+}
+.m{
+    margin-left: 1px;
+}
+.menu{
+    margin-left: 9vh;
+    margin-bottom: 10vh 10vh;
+    border: 1px solid black;
+    height: 30px;
+    width: 45px;
+}
+.sound{
+    margin-top: 20vh;
+}

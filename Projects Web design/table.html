@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+<body>
+    <table style="border: 5px solid black; gap: 3px; margin: 5px;padding: 5px 10px;width: 1000px; height: 500px; text-align: center; display: table; border-collapse: separate; border-spacing: 5px; ">
+        <tr style="background-color: red; font-family: 'Times New Roman', Times, serif; font-size: 29px;  border: 2px;">
+            <th>Sr.no</th>
+            <th>Name</th>
+            <th>class</th>
+        </tr>
+        <tr style="background: yellow; font-family: 'Times New Roman', Times, serif; font-size: 27px; align-items: center;padding: 4px 7px;">
+            <td>1</td>
+            <td>Roshni</td>
+            <td>BCS</td>
+        </tr>
+        <tr  style="background: yellow; font-family: 'Times New Roman', Times, serif; font-size: 27px; align-items: center;padding: 4px 7px;">
+            <td>2</td>
+            <td>Kanishka</td>
+            <td>7th</td>
+        </tr>
+    </table>
+    <form><br><br>
+      <label style="font-size: 25px; color: black;font-family: 'Times New Roman', Times, serif;">Name: </label>
+        <input class="n"  style="font-size: 25px; border: 5px solid black;border-style: double; font-family: 'Times New Roman', Times, serif; border-radius: 10px;padding: 10px 10px; color: black;"  type="text" placeholder="Name" maxlength="30" list="li"><br><br>
+       <datalist id="li">
+    <option>Seeta Daas</option>
+    <option>Reema Shukla</option>
+    <option>Poonam Pandey</option>
+    <option>Vineeta choudary</option>
+    <option>Puneet kapoor</option>
+    </datalist>
+    <label style="font-size: 25px; color: black;font-family: 'Times New Roman', Times, serif;">Contact: </label>
+    <input class="c" style="font-size: 25px; color: black; border: 5px solid black; border-style: double; padding: 10px 10px; border-radius: 10px;" type="number" placeholder="+91 " maxlength="10" list="ph"><br>
+<datalist id="ph">
+    <option value="9890146289">India</option>
+    <option value="734562098">India</option>
+    <option value="2246791037">UK</option>
+    <option value="12462701">Brazil</option>
+    <option value="9890146289">India</option>
+</datalist>
+    </form>
+    <style>
+ .n{
+    border: red;
+ }
+ .c{
+    border-color: red;
+ }
+    </style>
+    
+</body>
+</html>
